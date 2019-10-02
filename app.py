@@ -26,7 +26,9 @@ def callback():
         sendText(user,'จ้า')
     elif (userText == 'ไอ้บ้า') :
         sendText(user,'เขินนะ')
-    return '',200
+   else :
+
+  return '',200
 
 def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
